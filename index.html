@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/logo.svg" />
+    <script src="/js/chroma.min.js"></script>
+    <script src="/js/simplex-noise.min.js"></script>
+    <script src="/js/victor.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TransLand</title>
+    <!-- element css cdn, if you use custom theme, remove it. -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/element-plus/dist/index.css"
+    /> -->
+    <style>
+      canvas {
+  width: 100vw;
+  height: 100vh;
+}
+html { overflow-x:hidden;
+  overflow-y:hidden; }
+      
+      .bg{
+        position:absolute;
+        z-index: -1;
+      }
+      </style>      
+    <script type="module" crossorigin src="/assets/index.2e382fb5.js"></script>
+    <link rel="stylesheet" href="/assets/index.3590e48e.css">
+  </head>
+  <body>
+    <div class="bg"><canvas id="c"></canvas></div>
+    <div id="app"></div>
+    
+    <script src="/js/background.js"></script>
+  </body>
+
+</html>
